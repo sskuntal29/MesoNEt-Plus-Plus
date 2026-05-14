@@ -3,6 +3,15 @@
 > A robustness-focused extension of [MesoNet](https://arxiv.org/abs/1809.00888) with Squeeze-and-Excitation attention, JPEG augmentation, and label smoothing — achieving **93.6% accuracy** and a **70% reduction in JPEG compression degradation** over the Meso-4 baseline.
 
 ---
+## Notebooks
+
+| Notebook | Description |
+|---|---|
+| `basepaper_colab.ipynb` | Full training + evaluation pipeline, optimized for Google Colab (T4 GPU) |
+| `basepaper_jupyter.ipynb` | Local training pipeline for Jupyter environments |
+
+Run on Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK)
+
 
 ## Overview
 
@@ -167,7 +176,12 @@ If you use this work, please cite the original MesoNet paper and this repository
   year={2018}
 }
 ```
-
+@misc{mesonetplusplus2024,
+  title={MesoNet++: Advancements in shallow CNN-based deepfake detection},
+  author={Sagar Kuntal , Rishav Kumar},
+  year={2026},
+  url={https://github.com/sskuntal29/MesoNEt++}
+}
 ---
 
 ## Acknowledgements
